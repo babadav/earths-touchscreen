@@ -1,0 +1,42 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	widows: 100%;
+}
+
+.circle{
+	width: 700px;
+	height: 700px;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	.box{
+		width: 200px;
+		height: 200px;
+		border: 2px solid black;
+		position: relative;
+	}
+}
+
