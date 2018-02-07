@@ -22,25 +22,168 @@ TABLE OF CONTENTS:
 }
 
 body {
-	widows: 100%;
-	display: flex;
-	justify-content: center;
-	padding-top: 10%;
-	background-color: light-blue;
+	width: 100%;
+	color: white;
+	background-image: url(../../src/img/body-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-.circle{
-	width: 700px;
-	height: 700px;
-	border: 2px solid black;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	.box{
-		width: 200px;
-		height: 200px;
-		border: 2px solid black;
-		position: relative;
+.nav-container{
+	width: 50%;
+	position: relative;
+	margin: 0 auto;
+
+
+	.nav-center{
+	    width: 80%;
+	    margin: 0 auto;
+	    height: 500px;
+		background-color: RGB(5,21,27);
+		border: 2px solid RGB(224,112,84);
+		border-radius: 50%;
+
+	}
+
+	.history-select,
+	.deforestation-select,
+	.height-select{
+		
+	    width: 30%;
+	    
+
+	    img{
+	    	width: 100%;
+	    	background-color: RGB(5,21,27);
+	    	border: 2px solid RGB(224,112,84);
+		    border-radius: 50%;
+	    }
+	}
+
+	.height-select{
+		
+
+		img{
+			height: 160px;
+		}
 	}
 }
+
+
+.history-container{
+	.rings-text-container{
+		display: flex;
+
+		.text-container{
+			width: 40%;
+			margin: 0 auto;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    flex-direction: column;
+		}
+
+		    .ring-title{
+		    	width: 20%;
+			    padding-bottom: 5%;
+			    background-color: blue;
+			    align-self: flex-end;
+			    margin-bottom: 5%;
+		    }
+
+		    .ring-date{
+		    	width: 20%;
+			    padding-bottom: 5%;
+			    background-color: blue;
+			    align-self: flex-end;
+		    }
+
+		    .main-text-image-1{
+		    	p{
+		    		width: 100%;
+		    		text-align: justify;
+		    		font-size: 1.5rem;
+		    		line-height: 1.5;
+		    		margin-bottom: 5%;
+		    	}
+	    	    .image-1{
+	    	    	background-color: white;
+	    	    	padding-bottom: 50%;
+	    	    	margin-bottom: 5%;
+	    	    }
+		    }
+		}
+
+		.rings-svg{
+			width: 50%;
+			margin: 0 auto;
+		}
+	}
+
+
+.height-container{
+	.rings-tree-container{
+		display: flex;
+
+		.tree-container{
+			width: 40%;
+			margin: 0 auto;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+
+		    .object-compare{
+		    	width: 30%;
+		    	display: flex;
+		    	flex-direction: column;
+		    	.box{
+		    		width: 100px;
+		    		padding-bottom: 100px;
+		    		background-color: white;
+		    		margin-bottom: 2%;
+		    	}
+		    }
+
+		    .tree-image{
+		    	width: 50%;
+		    }
+		}
+
+		    .ring-title{
+		    	width: 20%;
+			    padding-bottom: 5%;
+			    background-color: blue;
+			    align-self: flex-end;
+			    margin-bottom: 5%;
+		    }
+
+		    .ring-date{
+		    	width: 20%;
+			    padding-bottom: 5%;
+			    background-color: blue;
+			    align-self: flex-end;
+		    }
+
+		    .main-text-image-1{
+		    	p{
+		    		width: 100%;
+		    		text-align: justify;
+		    		font-size: 1.5rem;
+		    		line-height: 1.5;
+		    		margin-bottom: 5%;
+		    	}
+	    	    .image-1{
+	    	    	background-color: white;
+	    	    	padding-bottom: 50%;
+	    	    	margin-bottom: 5%;
+	    	    }
+		    }
+		}
+
+		.rings-svg{
+			width: 50%;
+			margin: 0 auto;
+		}
+	}
+
 
