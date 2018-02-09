@@ -13,6 +13,7 @@ TABLE OF CONTENTS:
 */
 
 @import 'reset';
+@import 'drag-styles.scss';
 
 
 /* 1. Main Layout ================================= */
@@ -29,6 +30,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+.hand-print{
+	padding-bottom: 50%;
+}
+
 .nav-container{
 	width: 50%;
 	position: relative;
@@ -38,10 +43,40 @@ body {
 	.nav-center{
 	    width: 80%;
 	    margin: 0 auto;
-	    height: 500px;
+	    padding-bottom: 75%;
 		background-color: RGB(5,21,27);
-		border: 2px solid RGB(224,112,84);
+		border: 10px solid RGB(224,112,84);
 		border-radius: 50%;
+
+		.history-line{
+			position: absolute;
+		    background-color: white;
+		    width: 2px;
+		    padding-bottom: 17%;
+		    transform: rotate(-20deg);
+		    top: 22%;
+		    left: 22%;
+		}
+
+		.deforestation-line{
+		    position: absolute;
+		    background-color: white;
+		    width: 2px;
+		    padding-bottom: 26%;
+		    left: 51%;
+		    top: 5%;
+
+		}
+		.height-line{
+	        position: absolute;
+		    background-color: white;
+		    width: 2px;
+		    padding-bottom: 17%;
+		    left: 80%;
+		    top: 23%;
+		    transform: rotate(18deg);
+
+		}
 
 	}
 
@@ -61,11 +96,26 @@ body {
 	}
 
 	.height-select{
+		    position: absolute;
+		    top: -70%;
+		    left: -25%;
 		
 
 		img{
 			height: 160px;
 		}
+	}
+
+	.deforestation-select{
+		position: absolute;
+        top: -20%;
+	    left: 37%;
+	}
+
+	.height-select{
+	    position: absolute;
+	    top: 0%;
+	    left: 73%;
 	}
 }
 
@@ -186,4 +236,14 @@ body {
 		}
 	}
 
+.rings-map-container{
+	display: flex;
+	.rings-svg{
+		width: 50%;
+	}
+	.map-svg{
+		width: 50%;
+	}
+
+}
 
