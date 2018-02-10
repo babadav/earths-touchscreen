@@ -91,7 +91,7 @@ Draggable.create(".dragger", {
       }
 
 
-      if (roundToArbitraryNumbers(this.x) > 79 && roundToArbitraryNumbers(this.x) < 125 ){
+      if (roundToArbitraryNumbers(this.x) > 79 && roundToArbitraryNumbers(this.x) < 126 ){
       	TweenMax.to(container2Text , 2 , {autoAlpha: 0});
 	    TweenMax.to(container2Image , 2 , {autoAlpha: 0});
 	    TweenMax.to(container1Text , 2 , {autoAlpha: 0});
@@ -101,19 +101,22 @@ Draggable.create(".dragger", {
 
 	    TweenMax.to(container3Text , 2 , {autoAlpha: 1});
 	    TweenMax.to(container3Image , 2 , {autoAlpha: 1});
+	    
 
       }
 
-      if (roundToArbitraryNumbers(this.x) > 125 && roundToArbitraryNumbers(this.x) < 150 ){
-      	TweenMax.to(container2Text , 2 , {autoAlpha: 0});
-	    TweenMax.to(container2Image , 2 , {autoAlpha: 0});
-	    TweenMax.to(container1Text , 2 , {autoAlpha: 0});
-	    TweenMax.to(container1Image , 2 , {autoAlpha: 0});
-	    TweenMax.to(container3Text , 2 , {autoAlpha: 0});
-	    TweenMax.to(container3Image , 2 , {autoAlpha: 0});
+      if (roundToArbitraryNumbers(this.x) > 127 && roundToArbitraryNumbers(this.x) < 150 ){
+     //  	TweenMax.to(container2Text , 2 , {autoAlpha: 0});
+	    // TweenMax.to(container2Image , 2 , {autoAlpha: 0});
+	    // TweenMax.to(container1Text , 2 , {autoAlpha: 0});
+	    // TweenMax.to(container1Image , 2 , {autoAlpha: 0});
+	    // TweenMax.to(container3Text , 2 , {autoAlpha: 0});
+	    // TweenMax.to(container3Image , 2 , {autoAlpha: 0});
 
-	    TweenMax.to(container4Text , 2 , {autoAlpha: 1});
-	    TweenMax.to(container4Image , 2 , {autoAlpha: 1});
+	    // TweenMax.to(container4Text , 2 , {autoAlpha: 1});
+	    // TweenMax.to(container4Image , 2 , {autoAlpha: 1});
+
+	    console.log('fuck')
 
       }
     }

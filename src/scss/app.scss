@@ -41,10 +41,14 @@ body {
 
 
 	.nav-center{
-	    width: 80%;
+	    width: 60%;
 	    margin: 0 auto;
-	    padding-bottom: 75%;
+	    padding-bottom: 50%;
 		background-color: RGB(5,21,27);
+		background-image: url(../../src/img/treeMandala.png);
+		background-size: contain;
+		background-position: center center;
+
 		border: 10px solid RGB(224,112,84);
 		border-radius: 50%;
 
@@ -188,8 +192,7 @@ body {
 		    .main-text-image-3{
 		    	transition: all .5s;
 		    	position: absolute;
-		    	visibility: hidden;
-	    		opacity: 1;
+
 
 
 		    	p{
@@ -225,14 +228,16 @@ body {
 		    		margin-bottom: 5%;
 		    		visibility: hidden;
 		    		opacity: 1;
+		    		
 
 		    	}
-	    	    .image-2{
+	    	    .image-4{
 	    	    	background-color: white;
 	    	    	padding-bottom: 50%;
 	    	    	margin-bottom: 5%;
 	    	    	visibility: hidden;
 	    	    	opacity: 1;
+	    	    	
 
 	    	    }
 		    }
