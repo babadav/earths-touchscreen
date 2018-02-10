@@ -5,3 +5,64 @@
 body{
 	width: 100%;
 }
+
+.drag-area {
+	position: relative;
+    width: 70%;
+    height: 0.2%;
+    background: RGB(92,195,169);
+    transform: rotate(45deg);
+    top: 71%;
+    left: 39%;
+  
+  .dragger {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: RGB(92,195,169);
+    border-radius: 10px;
+    top: -10px;
+  }
+  
+  .notch {
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    background: red;
+    top: -20px;
+    transform: translateX(10px)
+  }
+  .notch-1 {
+    left: 0%;
+  }
+  .notch-2 {
+    left: 14%;
+  }
+  .notch-3 {
+    left: 22%;
+  }
+  .notch-4 {
+    left: 27%;
+  }
+  .notch-5 {
+    left: 35%;
+  }
+
+  .notch-6 {
+    left: 39%;
+  }
+
+  .notch-7 {
+    left: 44%;
+  }
+  .notch-8 {
+    left: 51%;
+  }
+  .notch-9 {
+    left: 59%;
+  }
+  .notch-10 {
+    left: 68%;
+  }
+}
+

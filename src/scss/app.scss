@@ -131,24 +131,20 @@ body {
 		    justify-content: center;
 		    align-items: center;
 		    flex-direction: column;
-		}
+		    transition: all .3s;
 
-		    .ring-title{
-		    	width: 20%;
-			    padding-bottom: 5%;
-			    background-color: blue;
-			    align-self: flex-end;
-			    margin-bottom: 5%;
+		    .history-text{
+		    	transition: all .3s;
+		    	p{
+		    		width: 90%;
+		    	}
 		    }
 
-		    .ring-date{
-		    	width: 20%;
-			    padding-bottom: 5%;
-			    background-color: blue;
-			    align-self: flex-end;
-		    }
+		     .main-text-image-1{
+		    	transition: all .5s;
+		    	position: absolute;
+		    	opacity: 1;
 
-		    .main-text-image-1{
 		    	p{
 		    		width: 100%;
 		    		text-align: justify;
@@ -161,6 +157,84 @@ body {
 	    	    	padding-bottom: 50%;
 	    	    	margin-bottom: 5%;
 	    	    }
+
+		    }
+		    .main-text-image-2{
+		    	transition: all .5s;
+		    	position: absolute;
+
+
+		    	p{
+		    		width: 100%;
+		    		text-align: justify;
+		    		font-size: 1.5rem;
+		    		line-height: 1.5;
+		    		margin-bottom: 5%;
+		    		visibility: hidden;
+		    		opacity: 1;
+
+		    	}
+	    	    .image-2{
+	    	    	background-color: white;
+	    	    	padding-bottom: 50%;
+	    	    	margin-bottom: 5%;
+	    	    	visibility: hidden;
+	    	    	opacity: 1;
+
+	    	    }
+		    }
+		}
+
+		    .main-text-image-3{
+		    	transition: all .5s;
+		    	position: absolute;
+		    	visibility: hidden;
+	    		opacity: 1;
+
+
+		    	p{
+		    		width: 100%;
+		    		text-align: justify;
+		    		font-size: 1.5rem;
+		    		line-height: 1.5;
+		    		margin-bottom: 5%;
+		    		visibility: hidden;
+		    		opacity: 1;
+
+		    	}
+	    	    .image-3{
+	    	    	background-color: white;
+	    	    	padding-bottom: 50%;
+	    	    	margin-bottom: 5%;
+	    	    	visibility: hidden;
+	    	    	opacity: 1;
+
+	    	    }
+		    }
+
+		    .main-text-image-4{
+		    	transition: all .5s;
+		    	position: absolute;
+
+
+		    	p{
+		    		width: 100%;
+		    		text-align: justify;
+		    		font-size: 1.5rem;
+		    		line-height: 1.5;
+		    		margin-bottom: 5%;
+		    		visibility: hidden;
+		    		opacity: 1;
+
+		    	}
+	    	    .image-2{
+	    	    	background-color: white;
+	    	    	padding-bottom: 50%;
+	    	    	margin-bottom: 5%;
+	    	    	visibility: hidden;
+	    	    	opacity: 1;
+
+	    	    }
 		    }
 		}
 
@@ -168,6 +242,28 @@ body {
 			width: 50%;
 			margin: 0 auto;
 		}
+
+		.ring-title{
+		    	width: 20%;
+	    	    position: absolute;
+			    top: 2530px;
+			    padding-bottom: 5%;
+			    background-color: blue;
+			    align-self: flex-end;
+			    margin-bottom: 5%;
+			    opacity: 0;
+		    }
+
+		    .ring-date{
+		    	width: 20%;
+	    	    position: absolute;
+			    top: 2650px;
+			    padding-bottom: 5%;
+			    background-color: blue;
+			    align-self: flex-end;
+			    margin-bottom: 5%;
+			    opacity: 0;
+		    }
 	}
 
 
