@@ -30,7 +30,7 @@ var roundToArbitraryNumbers = function(endValue) {
 }
 
 
-Draggable.create(".dragger", {
+Draggable.create(".history-dragger", {
     type:"x",
     edgeResistance:0.65,
     bounds:".drag-area",
@@ -64,60 +64,161 @@ Draggable.create(".dragger", {
 	   let ringDate4 = document.querySelector('.ring-title4')
 	   let ringTitle4 = document.querySelector('.ring-date4')
 
+
       if (roundToArbitraryNumbers(this.x) < 50 ){
 
       	TweenMax.to(container1Text , 2 , {autoAlpha: 1});
 	    TweenMax.to(container1Image , 2 , {autoAlpha: 1});
+	    TweenMax.to(ringDate1 , 2 , {autoAlpha: 1});
+	    TweenMax.to(ringTitle1 , 2 , {autoAlpha: 1});
 
 	    TweenMax.to(container2Text , 2 , {autoAlpha: 0});
 	    TweenMax.to(container2Image , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringDate2 , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringTitle2 , 2 , {autoAlpha: 0});
+
 	    TweenMax.to(container3Text , 2 , {autoAlpha: 0});
 	    TweenMax.to(container3Image , 2 , {autoAlpha: 0});
+	     TweenMax.to(ringDate3 , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringTitle3 , 2 , {autoAlpha: 0});
+
 	    TweenMax.to(container4Text , 2 , {autoAlpha: 0});
 	    TweenMax.to(container4Image , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringDate4 , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringTitle4 , 2 , {autoAlpha: 0});
       
       }
 
       if (roundToArbitraryNumbers(this.x) > 0 && roundToArbitraryNumbers(this.x) < 79 ) {
       	TweenMax.to(container1Text , 2 , {autoAlpha: 0});
 	    TweenMax.to(container1Image , 2 , {autoAlpha: 0});
+	     TweenMax.to(container1Text , 2 , {autoAlpha: 0});
+	    TweenMax.to(container1Image , 2 , {autoAlpha: 0});
+
 	    TweenMax.to(container3Text , 2 , {autoAlpha: 0});
 	    TweenMax.to(container3Image , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringDate3 , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringTitle3 , 2 , {autoAlpha: 0});
+
 	    TweenMax.to(container4Text , 2 , {autoAlpha: 0});
 	    TweenMax.to(container4Image , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringDate4 , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringTitle4 , 2 , {autoAlpha: 0});
 
 	    TweenMax.to(container2Text , 2 , {autoAlpha: 1});
 	    TweenMax.to(container2Image , 2 , {autoAlpha: 1});
+	    TweenMax.to(ringDate2 , 2 , {autoAlpha: 1});
+	    TweenMax.to(ringTitle2 , 2 , {autoAlpha: 1});
       }
 
 
       if (roundToArbitraryNumbers(this.x) > 79 && roundToArbitraryNumbers(this.x) < 126 ){
-      	TweenMax.to(container2Text , 2 , {autoAlpha: 0});
-	    TweenMax.to(container2Image , 2 , {autoAlpha: 0});
-	    TweenMax.to(container1Text , 2 , {autoAlpha: 0});
+        TweenMax.to(ringDate1 , 2 , {autoAlpha:0});
+	    TweenMax.to(ringTitle1 , 2 , {autoAlpha: 0});
+        TweenMax.to(container1Text , 2 , {autoAlpha: 0});
 	    TweenMax.to(container1Image , 2 , {autoAlpha: 0});
-	    TweenMax.to(container4Text , 2 , {autoAlpha: 0});
+	    
+	    TweenMax.to(container2Text , 2 , {autoAlpha: 0});
+	    TweenMax.to(container2Image , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringDate2 , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringTitle2 , 2 , {autoAlpha: 0});
+
+ 		TweenMax.to(container4Text , 2 , {autoAlpha: 0});
 	    TweenMax.to(container4Image , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringDate4 , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringTitle4 , 2 , {autoAlpha: 0});
 
 	    TweenMax.to(container3Text , 2 , {autoAlpha: 1});
 	    TweenMax.to(container3Image , 2 , {autoAlpha: 1});
+	    TweenMax.to(ringDate3 , 2 , {autoAlpha: 1});
+	    TweenMax.to(ringTitle3 , 2 , {autoAlpha: 1});
 	    
 
       }
 
-      if (roundToArbitraryNumbers(this.x) > 127 && roundToArbitraryNumbers(this.x) < 150 ){
-     //  	TweenMax.to(container2Text , 2 , {autoAlpha: 0});
-	    // TweenMax.to(container2Image , 2 , {autoAlpha: 0});
-	    // TweenMax.to(container1Text , 2 , {autoAlpha: 0});
-	    // TweenMax.to(container1Image , 2 , {autoAlpha: 0});
-	    // TweenMax.to(container3Text , 2 , {autoAlpha: 0});
-	    // TweenMax.to(container3Image , 2 , {autoAlpha: 0});
+      if (roundToArbitraryNumbers(this.x) > 127 && roundToArbitraryNumbers(this.x) < 151 ){
+      	
+	    TweenMax.to(ringDate1 , 2 , {autoAlpha: 1});
+	    TweenMax.to(ringTitle1 , 2 , {autoAlpha: 1});
+        TweenMax.to(container1Text , 2 , {autoAlpha: 0});
+	    TweenMax.to(container1Image , 2 , {autoAlpha: 0});
 
-	    // TweenMax.to(container4Text , 2 , {autoAlpha: 1});
-	    // TweenMax.to(container4Image , 2 , {autoAlpha: 1});
+	    TweenMax.to(container2Text , 2 , {autoAlpha: 0});
+	    TweenMax.to(container2Image , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringDate2 , 2 , {autoAlpha: 1});
+	    TweenMax.to(ringTitle2 , 2 , {autoAlpha: 1});
+
+	    TweenMax.to(container3Text , 2 , {autoAlpha: 0});
+	    TweenMax.to(container3Image , 2 , {autoAlpha: 0});
+	    TweenMax.to(ringDate3 , 2 , {autoAlpha: 1});
+	    TweenMax.to(ringTitle3 , 2 , {autoAlpha: 1});
+
+	    TweenMax.to(container4Text , 2 , {autoAlpha: 1});
+	    TweenMax.to(container4Image , 2 , {autoAlpha: 1});
+	    TweenMax.to(ringDate4 , 2 , {autoAlpha: 1});
+	    TweenMax.to(ringTitle4 , 2 , {autoAlpha: 1});
 
 	    console.log('fuck')
 
       }
     }
 });
+
+
+Draggable.create(".tree-height-dragger", {
+    type:"x",
+    edgeResistance:0.65,
+    bounds:".tree-drag-area",
+    throwProps:true,
+    // liveSnap: true, // toggle this for different effect
+    snap: {
+        x: roundToArbitraryNumbers
+    },
+    onDragEnd: function() {
+    	console.log("dropped closest to ", roundToArbitraryNumbers(this.x))
+    	let airPlaneImg = document.querySelectorAll('.airplane-image')
+    	let elephantImg = document.querySelectorAll('.elephant-image')
+    	let airBaloonImg = document.querySelectorAll('.air-baloon-image')
+    	let giraffeImg = document.querySelectorAll('.giraffe-image')
+
+
+    	if (roundToArbitraryNumbers(this.x) < 50 ){
+    		TweenMax.to(airPlaneImg , 2 , {autoAlpha: 0});
+    		TweenMax.to(airBaloonImg , 2 , {autoAlpha: 0});
+    		TweenMax.to(giraffeImg , 2 , {autoAlpha: 0});
+
+
+    		TweenMax.staggerTo(elephantImg, 2 , {autoAlpha: 1 , delay: 1}, .3)
+
+    		console.log('fuck')
+    	}
+
+    	if (roundToArbitraryNumbers(this.x) > 0 && roundToArbitraryNumbers(this.x) < 79 ) {
+    		TweenMax.to(elephantImg , 2 , {autoAlpha: 0});
+    		TweenMax.to(giraffeImg , 2 , {autoAlpha: 0});
+    		TweenMax.to(airBaloonImg , 2 , {autoAlpha: 0});
+
+    		TweenMax.staggerTo(airPlaneImg, 2 , {autoAlpha: 1 , delay: 1}, .3)
+    		
+
+    	}
+
+    	 if (roundToArbitraryNumbers(this.x) > 79 && roundToArbitraryNumbers(this.x) < 126 ){
+	 		TweenMax.to(elephantImg , 2 , {autoAlpha: 0});
+    		TweenMax.to(airPlaneImg, 2 , {autoAlpha: 0})
+    		TweenMax.to(giraffeImg , 2 , {autoAlpha: 0});
+
+    		TweenMax.staggerTo(airBaloonImg, 2 , {autoAlpha: 1 , delay: 1}, .3)
+    	 }
+
+    	  if (roundToArbitraryNumbers(this.x) > 127 && roundToArbitraryNumbers(this.x) < 151 ){
+    	  	TweenMax.to(elephantImg , 2 , {autoAlpha: 0});
+    		TweenMax.to(airPlaneImg, 2 , {autoAlpha: 0})
+    		TweenMax.to(airBaloonImg, 2, {autoAlpha: 0})
+    		TweenMax.staggerTo(giraffeImg, 2 , {autoAlpha: 1 , delay: 1}, .3)
+
+    	  }
+    } 
+});
+
+

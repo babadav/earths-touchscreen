@@ -125,6 +125,7 @@ body {
 
 
 .history-container{
+	margin-bottom: 15%;
 	.rings-text-container{
 		display: flex;
 
@@ -150,7 +151,7 @@ body {
 		    	opacity: 1;
 
 		    	p{
-		    		width: 100%;
+		    		width: 90%;
 		    		text-align: justify;
 		    		font-size: 1.5rem;
 		    		line-height: 1.5;
@@ -160,6 +161,7 @@ body {
 	    	    	background-color: white;
 	    	    	padding-bottom: 50%;
 	    	    	margin-bottom: 5%;
+	    	    	width: 90%;
 	    	    }
 
 		    }
@@ -169,7 +171,7 @@ body {
 
 
 		    	p{
-		    		width: 100%;
+		    		width: 90%;
 		    		text-align: justify;
 		    		font-size: 1.5rem;
 		    		line-height: 1.5;
@@ -184,6 +186,7 @@ body {
 	    	    	margin-bottom: 5%;
 	    	    	visibility: hidden;
 	    	    	opacity: 1;
+	    	    	width: 90%;
 
 	    	    }
 		    }
@@ -196,7 +199,7 @@ body {
 
 
 		    	p{
-		    		width: 100%;
+		    		width: 90%;
 		    		text-align: justify;
 		    		font-size: 1.5rem;
 		    		line-height: 1.5;
@@ -211,6 +214,7 @@ body {
 	    	    	margin-bottom: 5%;
 	    	    	visibility: hidden;
 	    	    	opacity: 1;
+	    	    	width: 90%;
 
 	    	    }
 		    }
@@ -221,7 +225,7 @@ body {
 
 
 		    	p{
-		    		width: 100%;
+		    		width: 90%;
 		    		text-align: justify;
 		    		font-size: 1.5rem;
 		    		line-height: 1.5;
@@ -237,6 +241,7 @@ body {
 	    	    	margin-bottom: 5%;
 	    	    	visibility: hidden;
 	    	    	opacity: 1;
+	    	    	width: 90%;
 	    	    	
 
 	    	    }
@@ -251,23 +256,29 @@ body {
 		.ring-title{
 		    	width: 20%;
 	    	    position: absolute;
-			    top: 2530px;
+		        top: 2260px;
+	            right: 71px;
 			    padding-bottom: 5%;
 			    background-color: blue;
 			    align-self: flex-end;
 			    margin-bottom: 5%;
-			    opacity: 0;
+			    visibility: hidden;
+			    opacity: 1;
+
 		    }
 
 		    .ring-date{
 		    	width: 20%;
 	    	    position: absolute;
-			    top: 2650px;
+			    top: 2380px;
+		        right: 71px;
 			    padding-bottom: 5%;
 			    background-color: blue;
 			    align-self: flex-end;
 			    margin-bottom: 5%;
-			    opacity: 0;
+			    visibility: hidden;
+			    opacity: 1;
+
 		    }
 	}
 
@@ -285,13 +296,22 @@ body {
 
 		    .object-compare{
 		    	width: 30%;
+	    	    
 		    	display: flex;
 		    	flex-direction: column;
-		    	.box{
-		    		width: 100px;
-		    		padding-bottom: 100px;
-		    		background-color: white;
-		    		margin-bottom: 2%;
+
+		    	.elephant-compare-container, .airplane-compare-container,
+		    	.air-baloon-compare-container, .giraffe-compare-container
+		    	{
+		    		position: absolute;
+				    top: 2661px;
+				    right: 450px;
+					width: 10%;
+
+					.airplane-image, .air-baloon-image,
+					.giraffe-image{
+						width: 50%;
+					}
 		    	}
 		    }
 

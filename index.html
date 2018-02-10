@@ -272,7 +272,7 @@
 						  <div class="notch notch-8"></div>
 						  <div class="notch notch-9"></div>
 						  <div class="notch notch-10"></div>
-					<div class="dragger"></div>
+					<div class="history-dragger"></div>
 			</div>
 			<?xml version="1.0" encoding="utf-8"?>
 			<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -402,14 +402,14 @@
 					    margin-bottom: 5%;">
 					</div>
 				</div>
-				<div class="ring-title1 ring-title">Title1</div>
-				<div class="ring-title2 ring-title">Title2</div>
-				<div class="ring-title3 ring-title">Title3</div>
-				<div class="ring-title4 ring-title">Title4</div>
-				<div class="ring-date1">1100bc</div>
-				<div class="ring-date2">1200bc</div>
-				<div class="ring-date3">1300bc</div>
-				<div class="ring-date4">1400bc</div>
+				<div class="ring-title1 ring-title"><h1>Title1</h1></div>
+				<div class="ring-title2 ring-title"><h1>Title2</h1></div>
+				<div class="ring-title3 ring-title"><h1>Title3</h1></div>
+				<div class="ring-title4 ring-title"><h1>Title4</h1></div>
+				<div class="ring-date1 ring-date">1100bc</div>
+				<div class="ring-date2 ring-date">1200bc</div>
+				<div class="ring-date3 ring-date">1300bc</div>
+				<div class="ring-date4 ring-date">1400bc</div>
 			</div>	
 		</div>
 	</div>
@@ -420,7 +420,7 @@
 	<div class="height-container page-container">
 			<div class="rings-tree-container">
 				<div class="rings-svg">
-					<div class="drag-area">
+					<div class="tree-drag-area drag-area">
 					  <div class="notch notch-1"></div>
 					  <div class="notch notch-2"></div>
 					  <div class="notch notch-3"></div>
@@ -431,7 +431,7 @@
 					  <div class="notch notch-8"></div>
 					  <div class="notch notch-9"></div>
 					  <div class="notch notch-10"></div>
-					  <div class="dragger"></div>
+					  <div class="tree-height-dragger dragger"></div>
 					</div>
 			<?xml version="1.0" encoding="utf-8"?>
 <!-- 			Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -535,9 +535,74 @@
 	<!-- TREE SVG TREE SVG  TREE SVG TREE SVG  TREE SVG TREE SVG  TREE SVG TREE SVG  TREE SVG TREE SVG  -->
 			<div class="tree-container">
 				<div class="object-compare">
-					<div class="box"></div>
-					<div class="box"></div>
-					<div class="box"></div>
+					<div class="elephant-compare-container">
+						<div class="elephant-image">
+							<img src="src/img/elephant.svg" alt="">
+						</div>
+						<div class="elephant-image">
+							<img src="src/img/elephant.svg" alt="">
+						</div>
+						<div class="elephant-image">
+							<img src="src/img/elephant.svg" alt="">
+						</div>
+						<div class="elephant-image">
+							<img src="src/img/elephant.svg" alt="">
+						</div>
+						<div class="elephant-image">
+							<img src="src/img/elephant.svg" alt="">
+						</div>
+					</div>
+					<div class="airplane-compare-container">
+						<div class="airplane-image">
+							<img src="src/img/airplane.svg" alt="">
+						</div>
+						<div class="airplane-image">
+							<img src="src/img/airplane.svg" alt="">
+						</div>
+						<div class="airplane-image">
+							<img src="src/img/airplane.svg" alt="">
+						</div>
+						<div class="airplane-image">
+							<img src="src/img/airplane.svg" alt="">
+						</div>
+						<div class="airplane-image">
+							<img src="src/img/airplane.svg" alt="">
+						</div>
+					</div>
+					<div class="air-baloon-compare-container">
+						<div class="air-baloon-image">
+							<img src="src/img/air-baloon.svg" alt="">
+						</div>
+						<div class="air-baloon-image">
+							<img src="src/img/air-baloon.svg" alt="">
+						</div>
+						<div class="air-baloon-image">
+							<img src="src/img/air-baloon.svg" alt="">
+						</div>
+						<div class="air-baloon-image">
+							<img src="src/img/air-baloon.svg" alt="">
+						</div>
+						<div class="air-baloon-image">
+							<img src="src/img/air-baloon.svg" alt="">
+						</div>
+					</div>
+					<div class="giraffe-compare-container">
+						<div class="giraffe-image">
+							<img src="src/img/giraffe.svg" alt="">
+						</div>
+						<div class="giraffe-image">
+							<img src="src/img/giraffe.svg" alt="">
+						</div>
+						<div class="giraffe-image">
+							<img src="src/img/giraffe.svg" alt="">
+						</div>
+						<div class="giraffe-image">
+							<img src="src/img/giraffe.svg" alt="">
+						</div>
+						<div class="giraffe-image">
+							<img src="src/img/giraffe.svg" alt="">
+						</div>
+					</div>
 				</div>
 				<div class="tree-image">
 					<?xml version="1.0" encoding="utf-8"?>
@@ -4825,6 +4890,7 @@
 		<script src="src/js/TweenMax.js"></script>
 		<script src="src/js/ThrowPropsPlugin.js"></script>
 		<script src="src/js/Draggable.js"></script>
+		<script src="src/js/DrawSVGPlugin.min.js"></script>
 		<script src="src/js/app.js"></script>
 
 		<!-- to learn more about src vs dist, go here https://stackoverflow.com/questions/23730882/what-is-the-role-of-src-and-dist-folders -->
