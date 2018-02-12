@@ -34,14 +34,46 @@ body {
 	padding-bottom: 50%;
 }
 
+nav{
+		width: 90%;
+		margin: 0 auto;
+		display: flex;
+	    justify-content: space-between;
+	    opacity: 1;
+        padding-top: 50px;
+	    padding-bottom: 50px;
+	    visibility: hidden;
+
+
+		.weather{
+			width: 50px;
+		}
+
+		.page-select{
+			width: 227px;
+			display: flex;
+		    justify-content: space-around;
+			.history-global-nav, .deforesation-global-nav,
+			.height-global-nav{
+				width: 50px;	
+			}
+		}
+
+		.map{
+				width: 50px;
+			}
+	}
+
 .nav-container{
 	width: 50%;
-	position: relative;
+	position: absolute;
 	margin: 0 auto;
 
 
 	.nav-center{
 	    width: 60%;
+        position: relative;
+	    top: 70px;
 	    margin: 0 auto;
 	    padding-bottom: 50%;
 		background-color: RGB(5,21,27);
@@ -53,31 +85,31 @@ body {
 		border-radius: 50%;
 
 		.history-line{
-			position: absolute;
-		    background-color: white;
-		    width: 2px;
-		    padding-bottom: 17%;
-		    transform: rotate(-20deg);
-		    top: 22%;
-		    left: 22%;
-		}
-
-		.deforestation-line{
 		    position: absolute;
 		    background-color: white;
 		    width: 2px;
-		    padding-bottom: 26%;
-		    left: 51%;
-		    top: 5%;
-
+		    padding-bottom: 32%;
+		    transform: rotate(-20deg);
+		    top: -80PX;
+		    left: 22PX;
 		}
-		.height-line{
+
+		.deforestation-line{
 	        position: absolute;
 		    background-color: white;
 		    width: 2px;
-		    padding-bottom: 17%;
-		    left: 80%;
-		    top: 23%;
+		    padding-bottom: 37%;
+		    left: 310px;
+		    top: -210px;
+
+		}
+		.height-line{
+            position: absolute;
+		    background-color: white;
+		    width: 2px;
+		    padding-bottom: 130px;
+		    left: 510px;
+		    top: -65px;
 		    transform: rotate(18deg);
 
 		}
@@ -99,11 +131,9 @@ body {
 	    }
 	}
 
-	.height-select{
-		    position: absolute;
-		    top: -70%;
-		    left: -25%;
-		
+	.history-select{
+        position: relative;
+	    top: 60px;
 
 		img{
 			height: 160px;
@@ -112,20 +142,33 @@ body {
 
 	.deforestation-select{
 		position: absolute;
-        top: -20%;
+        top: -10%;
 	    left: 37%;
 	}
 
 	.height-select{
 	    position: absolute;
-	    top: 0%;
-	    left: 73%;
+	    top: 8%;
+	    left: 650px;
+
 	}
 }
 
+.page-container{
+	top: 60px;
+	
+}
+
+
 
 .history-container{
+	width: 90%;
+	margin: 0 auto;
 	margin-bottom: 15%;
+    position: relative;
+    top: -960px;
+    display: none;
+
 	.rings-text-container{
 		display: flex;
 
@@ -140,6 +183,8 @@ body {
 
 		    .history-text{
 		    	transition: all .3s;
+
+
 		    	p{
 		    		width: 90%;
 		    	}
@@ -165,7 +210,14 @@ body {
 	    	    }
 
 		    }
-		    .main-text-image-2{
+		    .main-text-image-2,
+		    .main-text-image-3,
+		    .main-text-image-4,
+		    .main-text-image-5,
+		    .main-text-image-6,
+		    .main-text-image-7,
+		    .main-text-image-8,
+		    .main-text-image-9{
 		    	transition: all .5s;
 		    	position: absolute;
 
@@ -249,41 +301,79 @@ body {
 		}
 
 		.rings-svg{
-			width: 50%;
+			width: 40%;
 			margin: 0 auto;
+			background-image: url(../../src/img/ring-bg.png);
+			background-size: contain;
+			background-repeat: no-repeat;
 		}
 
 		.ring-title{
 		    	width: 20%;
+		    	display: flex;
+		    	justify-content: flex-end;
 	    	    position: absolute;
-		        top: 2260px;
+		        top: 700px;
 	            right: 71px;
 			    padding-bottom: 5%;
-			    background-color: blue;
 			    align-self: flex-end;
 			    margin-bottom: 5%;
 			    visibility: hidden;
 			    opacity: 1;
+
+			    h1{
+			    	font-size: 2rem;
+			    	color: white;
+			    }
 
 		    }
 
 		    .ring-date{
 		    	width: 20%;
+		    	display: flex;
+		    	justify-content: flex-end;
 	    	    position: absolute;
-			    top: 2380px;
+			    top: 750px;
 		        right: 71px;
 			    padding-bottom: 5%;
-			    background-color: blue;
 			    align-self: flex-end;
 			    margin-bottom: 5%;
 			    visibility: hidden;
 			    opacity: 1;
 
+			    p{
+			    	font-size: 3rem;
+			    }
+
 		    }
 	}
 
+.deforestation-page{
+	display: none;
+	width: 90%;
+	margin: 0 auto;
+    left: 60px;
+    position: absolute;
+    top: 150px;
+}
+
+.height-page{
+	// position: absolute;
+	//   top: 150px;
+	// position: relative;
+ //    top: -850px;
+	
+}
 
 .height-container{
+	 width: 90%;
+	 margin: 0 auto;
+	visibility: visible;
+	opacity: 0;
+
+
+	
+
 	.rings-tree-container{
 		display: flex;
 
@@ -293,9 +383,14 @@ body {
 		    display: flex;
 		    justify-content: center;
 		    align-items: center;
+		    position: relative;
+
 
 		    .object-compare{
-		    	width: 30%;
+		    	width: 100%;
+	    	    position: absolute;
+			   	top: 186px;
+			    left: -37px;
 	    	    
 		    	display: flex;
 		    	flex-direction: column;
@@ -304,9 +399,8 @@ body {
 		    	.air-baloon-compare-container, .giraffe-compare-container
 		    	{
 		    		position: absolute;
-				    top: 2661px;
 				    right: 450px;
-					width: 10%;
+					width: 20%;
 
 					.airplane-image, .air-baloon-image,
 					.giraffe-image{
@@ -343,7 +437,8 @@ body {
 		    		line-height: 1.5;
 		    		margin-bottom: 5%;
 		    	}
-	    	    .image-1{
+	    	    .image-1,
+	    	    {
 	    	    	background-color: white;
 	    	    	padding-bottom: 50%;
 	    	    	margin-bottom: 5%;
@@ -354,13 +449,21 @@ body {
 		.rings-svg{
 			width: 50%;
 			margin: 0 auto;
+			background-image: url(../../src/img/ring-bg.png);
+			background-size: contain;
+			background-repeat: no-repeat;
 		}
 	}
 
 .rings-map-container{
 	display: flex;
+	width: 80%;
+	margin: 0 auto;
 	.rings-svg{
 		width: 50%;
+		background-image: url(../../src/img/ring-bg.png);
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 	.map-svg{
 		width: 50%;
@@ -368,3 +471,6 @@ body {
 
 }
 
+.show-page{
+	display: block;
+}
