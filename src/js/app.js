@@ -94,182 +94,182 @@ Draggable.create(".history-dragger", {
 
       if (roundToArbitraryNumbers(this.x) < 50 ){
 
-	    TweenMax.to(container2Text , 2 , {autoAlpha: 0});
-	    TweenMax.to(container2Image , 2 , {autoAlpha: 0});
-	    TweenMax.to(ringDate2 , 2 , {autoAlpha: 0});
-	    TweenMax.to(ringTitle2 , 2 , {autoAlpha: 0});
+	    TweenMax.to(container2Text , 2 , {opacity: 0, display: "none"});
+	    TweenMax.to(container2Image , 2 , {opacity: 0, display: "none"});
+	    TweenMax.to(ringDate2 , 2 , {opacity: 0, display: "none"});
+	    TweenMax.to(ringTitle2 , 2 , {opacity: 0, display: "none"});
 
-	    // TweenMax.to(container3Text , 2 , {autoAlpha: 0});
-	    // TweenMax.to(container3Image , 2 , {autoAlpha: 0});
-	    // TweenMax.to(ringDate3 , 2 , {autoAlpha: 0});
-	    // TweenMax.to(ringTitle3 , 2 , {autoAlpha: 0});
+	    // TweenMax.to(container3Text , 2 , {opacity: 0, display: "none"});
+	    // TweenMax.to(container3Image , 2 , {opacity: 0, display: "none"});
+	    // TweenMax.to(ringDate3 , 2 , {opacity: 0, display: "none"});
+	    // TweenMax.to(ringTitle3 , 2 , {opacity: 0, display: "none"});
 
-	    // TweenMax.to(container4Text , 2 , {autoAlpha: 0});
-	    // TweenMax.to(container4Image , 2 , {autoAlpha: 0});
-	    // TweenMax.to(ringDate4 , 2 , {autoAlpha: 0});
-	    // TweenMax.to(ringTitle4 , 2 , {autoAlpha: 0});
+	    // TweenMax.to(container4Text , 2 , {opacity: 0, display: "none"});
+	    // TweenMax.to(container4Image , 2 , {opacity: 0, display: "none"});
+	    // TweenMax.to(ringDate4 , 2 , {opacity: 0, display: "none"});
+	    // TweenMax.to(ringTitle4 , 2 , {opacity: 0, display: "none"});
 
-     //  TweenMax.to(container5Text , 2 , {autoAlpha: 0});
-     //  TweenMax.to(container5Image , 2 , {autoAlpha: 0});
-     //  TweenMax.to(ringDate5 , 2 , {autoAlpha: 0});
-     //  TweenMax.to(ringTitle5 , 2 , {autoAlpha: 0});
+     //  TweenMax.to(container5Text , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(container5Image , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(ringDate5 , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(ringTitle5 , 2 , {opacity: 0, display: "none"});
 
-     //  TweenMax.to(container6Text , 2 , {autoAlpha: 0});
-     //  TweenMax.to(container6Image , 2 , {autoAlpha: 0});
-     //  TweenMax.to(ringDate6 , 2 , {autoAlpha: 0});
-     //  TweenMax.to(ringTitle6 , 2 , {autoAlpha: 0});
+     //  TweenMax.to(container6Text , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(container6Image , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(ringDate6 , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(ringTitle6 , 2 , {opacity: 0, display: "none"});
 
-     //  TweenMax.to(container7Text , 2 , {autoAlpha: 0});
-     //  TweenMax.to(container7Image , 2 , {autoAlpha: 0});
-     //  TweenMax.to(ringDate7 , 2 , {autoAlpha: 0});
-     //  TweenMax.to(ringTitle7 , 2 , {autoAlpha: 0});
+     //  TweenMax.to(container7Text , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(container7Image , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(ringDate7 , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(ringTitle7 , 2 , {opacity: 0, display: "none"});
 
-     //  TweenMax.to(container8Text , 2 , {autoAlpha: 0});
-     //  TweenMax.to(container8Image , 2 , {autoAlpha: 0});
-     //  TweenMax.to(ringDate8 , 2 , {autoAlpha: 0});
-     //  TweenMax.to(ringTitle8 , 2 , {autoAlpha: 0});
+     //  TweenMax.to(container8Text , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(container8Image , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(ringDate8 , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(ringTitle8 , 2 , {opacity: 0, display: "none"});
 
-     //  TweenMax.to(container9Text , 2 , {autoAlpha: 0});
-     //  TweenMax.to(container9Image , 2 , {autoAlpha: 0});
-     //  TweenMax.to(ringDate9 , 2 , {autoAlpha: 0});
-     //  TweenMax.to(ringTitle9 , 2 , {autoAlpha: 0});
+     //  TweenMax.to(container9Text , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(container9Image , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(ringDate9 , 2 , {opacity: 0, display: "none"});
+     //  TweenMax.to(ringTitle9 , 2 , {opacity: 0, display: "none"});
 
-     //  TweenMax.to(container1Text , 2 , {autoAlpha: 1});
-     //  TweenMax.to(container1Image , 2 , {autoAlpha: 1});
-     //  TweenMax.to(ringDate1 , 2 , {autoAlpha: 1});
-     //  TweenMax.to(ringTitle1 , 2 , {autoAlpha: 1});
+     //  TweenMax.to(container1Text , 2 , {opacity: 1, display: "block"});
+     //  TweenMax.to(container1Image , 2 , {opacity: 1, display: "block"});
+     //  TweenMax.to(ringDate1 , 2 , {opacity: 1, display: "block"});
+     //  TweenMax.to(ringTitle1 , 2 , {opacity: 1, display: "block"});
       
       }
 
       if (roundToArbitraryNumbers(this.x) > 0 && roundToArbitraryNumbers(this.x) < 79 ) {
 
-      TweenMax.to(container3Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container3Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate3 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle3 , 2 , {autoAlpha: 0});
+      TweenMax.to(container3Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container3Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate3 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle3 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container4Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container4Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate4 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle4 , 2 , {autoAlpha: 0});
+      TweenMax.to(container4Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container4Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate4 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle4 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container5Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container5Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate5 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle5 , 2 , {autoAlpha: 0});
+      TweenMax.to(container5Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container5Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate5 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle5 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container6Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container6Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate6 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle6 , 2 , {autoAlpha: 0});
+      TweenMax.to(container6Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container6Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate6 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle6 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container7Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container7Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate7 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle7 , 2 , {autoAlpha: 0});
+      TweenMax.to(container7Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container7Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate7 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle7 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container8Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container8Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate8 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle8 , 2 , {autoAlpha: 0});
+      TweenMax.to(container8Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container8Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate8 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle8 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container9Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container9Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate9 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle9 , 2 , {autoAlpha: 0});
+      TweenMax.to(container9Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container9Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate9 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle9 , 2 , {opacity: 0, display: "none"});
 
-	    TweenMax.to(container2Text , 2 , {autoAlpha: 1});
-	    TweenMax.to(container2Image , 2 , {autoAlpha: 1});
-	    TweenMax.to(ringDate2 , 2 , {autoAlpha: 1});
-	    TweenMax.to(ringTitle2 , 2 , {autoAlpha: 1});
+	    TweenMax.to(container2Text , 2 , {opacity: 1, display: "block"});
+	    TweenMax.to(container2Image , 2 , {opacity: 1, display: "block"});
+	    TweenMax.to(ringDate2 , 2 , {opacity: 1, display: "block"});
+	    TweenMax.to(ringTitle2 , 2 , {opacity: 1, display: "block"});
       }
 
 
       if (roundToArbitraryNumbers(this.x) > 79 && roundToArbitraryNumbers(this.x) < 126 ){
-        TweenMax.to(container2Text , 2 , {autoAlpha: 0});
-        TweenMax.to(container2Image , 2 , {autoAlpha: 0});
-        TweenMax.to(ringDate2 , 2 , {autoAlpha: 0});
-        TweenMax.to(ringTitle2 , 2 , {autoAlpha: 0});
+        TweenMax.to(container2Text , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(container2Image , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringDate2 , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringTitle2 , 2 , {opacity: 0, display: "none"});
 
-        TweenMax.to(container4Text , 2 , {autoAlpha: 0});
-        TweenMax.to(container4Image , 2 , {autoAlpha: 0});
-        TweenMax.to(ringDate4 , 2 , {autoAlpha: 0});
-        TweenMax.to(ringTitle4 , 2 , {autoAlpha: 0});
+        TweenMax.to(container4Text , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(container4Image , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringDate4 , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringTitle4 , 2 , {opacity: 0, display: "none"});
 
-        TweenMax.to(container5Text , 2 , {autoAlpha: 0});
-        TweenMax.to(container5Image , 2 , {autoAlpha: 0});
-        TweenMax.to(ringDate5 , 2 , {autoAlpha: 0});
-        TweenMax.to(ringTitle5 , 2 , {autoAlpha: 0});
+        TweenMax.to(container5Text , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(container5Image , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringDate5 , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringTitle5 , 2 , {opacity: 0, display: "none"});
 
-        TweenMax.to(container6Text , 2 , {autoAlpha: 0});
-        TweenMax.to(container6Image , 2 , {autoAlpha: 0});
-        TweenMax.to(ringDate6 , 2 , {autoAlpha: 0});
-        TweenMax.to(ringTitle6 , 2 , {autoAlpha: 0});
+        TweenMax.to(container6Text , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(container6Image , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringDate6 , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringTitle6 , 2 , {opacity: 0, display: "none"});
 
-        TweenMax.to(container7Text , 2 , {autoAlpha: 0});
-        TweenMax.to(container7Image , 2 , {autoAlpha: 0});
-        TweenMax.to(ringDate7 , 2 , {autoAlpha: 0});
-        TweenMax.to(ringTitle7 , 2 , {autoAlpha: 0});
+        TweenMax.to(container7Text , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(container7Image , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringDate7 , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringTitle7 , 2 , {opacity: 0, display: "none"});
 
-        TweenMax.to(container8Text , 2 , {autoAlpha: 0});
-        TweenMax.to(container8Image , 2 , {autoAlpha: 0});
-        TweenMax.to(ringDate8 , 2 , {autoAlpha: 0});
-        TweenMax.to(ringTitle8 , 2 , {autoAlpha: 0});
+        TweenMax.to(container8Text , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(container8Image , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringDate8 , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringTitle8 , 2 , {opacity: 0, display: "none"});
 
-        TweenMax.to(container9Text , 2 , {autoAlpha: 0});
-        TweenMax.to(container9Image , 2 , {autoAlpha: 0});
-        TweenMax.to(ringDate9 , 2 , {autoAlpha: 0});
-        TweenMax.to(ringTitle9 , 2 , {autoAlpha: 0});
+        TweenMax.to(container9Text , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(container9Image , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringDate9 , 2 , {opacity: 0, display: "none"});
+        TweenMax.to(ringTitle9 , 2 , {opacity: 0, display: "none"});
 
-        TweenMax.to(container3Text , 2 , {autoAlpha: 1});
-        TweenMax.to(container3Image , 2 , {autoAlpha: 1});
-        TweenMax.to(ringDate3 , 2 , {autoAlpha: 1});
-        TweenMax.to(ringTitle3 , 2 , {autoAlpha: 1});
+        TweenMax.to(container3Text , 2 , {opacity: 1, display: "block"});
+        TweenMax.to(container3Image , 2 , {opacity: 1, display: "block"});
+        TweenMax.to(ringDate3 , 2 , {opacity: 1, display: "block"});
+        TweenMax.to(ringTitle3 , 2 , {opacity: 1, display: "block"});
         
 
       }
 
       if (roundToArbitraryNumbers(this.x) > 127 && roundToArbitraryNumbers(this.x) < 151 ){
       	
-	    TweenMax.to(container3Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container3Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate3 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle3 , 2 , {autoAlpha: 0});
+	    TweenMax.to(container3Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container3Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate3 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle3 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container4Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container4Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate4 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle4 , 2 , {autoAlpha: 0});
+      TweenMax.to(container4Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container4Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate4 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle4 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container5Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container5Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate5 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle5 , 2 , {autoAlpha: 0});
+      TweenMax.to(container5Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container5Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate5 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle5 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container6Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container6Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate6 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle6 , 2 , {autoAlpha: 0});
+      TweenMax.to(container6Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container6Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate6 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle6 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container7Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container7Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate7 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle7 , 2 , {autoAlpha: 0});
+      TweenMax.to(container7Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container7Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate7 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle7 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container8Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container8Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate8 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle8 , 2 , {autoAlpha: 0});
+      TweenMax.to(container8Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container8Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate8 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle8 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container9Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container9Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate9 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle9 , 2 , {autoAlpha: 0});
+      TweenMax.to(container9Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container9Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate9 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle9 , 2 , {opacity: 0, display: "none"});
 
-	    TweenMax.to(container4Text , 2 , {autoAlpha: 1});
-	    TweenMax.to(container4Image , 2 , {autoAlpha: 1});
-	    TweenMax.to(ringDate4 , 2 , {autoAlpha: 1});
-	    TweenMax.to(ringTitle4 , 2 , {autoAlpha: 1});
+	    TweenMax.to(container4Text , 2 , {opacity: 1, display: "block"});
+	    TweenMax.to(container4Image , 2 , {opacity: 1, display: "block"});
+	    TweenMax.to(ringDate4 , 2 , {opacity: 1, display: "block"});
+	    TweenMax.to(ringTitle4 , 2 , {opacity: 1, display: "block"});
 
 	    console.log('fuck')
 
@@ -277,45 +277,45 @@ Draggable.create(".history-dragger", {
 
       if (roundToArbitraryNumbers(this.x) > 151 && roundToArbitraryNumbers(this.x) < 195 ){
         
-      TweenMax.to(container3Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container3Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate3 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle3 , 2 , {autoAlpha: 0});
+      TweenMax.to(container3Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container3Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate3 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle3 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container4Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container4Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate4 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle4 , 2 , {autoAlpha: 0});
+      TweenMax.to(container4Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container4Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate4 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle4 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container5Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container5Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate5 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle5 , 2 , {autoAlpha: 0});
+      TweenMax.to(container5Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container5Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate5 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle5 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container6Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container6Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate6 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle6 , 2 , {autoAlpha: 0});
+      TweenMax.to(container6Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container6Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate6 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle6 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container7Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container7Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate7 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle7 , 2 , {autoAlpha: 0});
+      TweenMax.to(container7Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container7Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate7 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle7 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container8Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container8Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate8 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle8 , 2 , {autoAlpha: 0});
+      TweenMax.to(container8Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container8Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate8 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle8 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container9Text , 2 , {autoAlpha: 0});
-      TweenMax.to(container9Image , 2 , {autoAlpha: 0});
-      TweenMax.to(ringDate9 , 2 , {autoAlpha: 0});
-      TweenMax.to(ringTitle9 , 2 , {autoAlpha: 0});
+      TweenMax.to(container9Text , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(container9Image , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringDate9 , 2 , {opacity: 0, display: "none"});
+      TweenMax.to(ringTitle9 , 2 , {opacity: 0, display: "none"});
 
-      TweenMax.to(container4Text , 2 , {autoAlpha: 1});
-      TweenMax.to(container4Image , 2 , {autoAlpha: 1});
-      TweenMax.to(ringDate4 , 2 , {autoAlpha: 1});
-      TweenMax.to(ringTitle4 , 2 , {autoAlpha: 1});
+      TweenMax.to(container4Text , 2 , {opacity: 1, display: "block"});
+      TweenMax.to(container4Image , 2 , {opacity: 1, display: "block"});
+      TweenMax.to(ringDate4 , 2 , {opacity: 1, display: "block"});
+      TweenMax.to(ringTitle4 , 2 , {opacity: 1, display: "block"});
 
       console.log('fuck')
 
@@ -343,39 +343,39 @@ Draggable.create(".tree-height-dragger", {
 
 
     	if (roundToArbitraryNumbers(this.x) < 50 ){
-    		TweenMax.to(airPlaneImg , 2 , {autoAlpha: 0});
-    		TweenMax.to(airBaloonImg , 2 , {autoAlpha: 0});
-    		TweenMax.to(giraffeImg , 2 , {autoAlpha: 0});
+    		TweenMax.to(airPlaneImg , 2 , {opacity: 0, display: "none"});
+    		TweenMax.to(airBaloonImg , 2 , {opacity: 0, display: "none"});
+    		TweenMax.to(giraffeImg , 2 , {opacity: 0, display: "none"});
 
 
-    		TweenMax.staggerTo(elephantImg, 2 , {autoAlpha: 1 , delay: 1}, .3)
+    		TweenMax.staggerTo(elephantImg, 2 , {opacity: 1, display: "block" , delay: 1}, .3)
 
 
     	}
 
     	if (roundToArbitraryNumbers(this.x) > 0 && roundToArbitraryNumbers(this.x) < 79 ) {
-    		TweenMax.to(elephantImg , 2 , {autoAlpha: 0});
-    		TweenMax.to(giraffeImg , 2 , {autoAlpha: 0});
-    		TweenMax.to(airBaloonImg , 2 , {autoAlpha: 0});
+    		TweenMax.to(elephantImg , 2 , {opacity: 0, display: "none"});
+    		TweenMax.to(giraffeImg , 2 , {opacity: 0, display: "none"});
+    		TweenMax.to(airBaloonImg , 2 , {opacity: 0, display: "none"});
 
-    		TweenMax.staggerTo(airPlaneImg, 2 , {autoAlpha: 1 , delay: 1}, .3)
+    		TweenMax.staggerTo(airPlaneImg, 2 , {opacity: 1, display: "block" , delay: 1}, .3)
     		console.log('work')
 
     	}
 
     	 if (roundToArbitraryNumbers(this.x) > 79 && roundToArbitraryNumbers(this.x) < 126 ){
-	 		TweenMax.to(elephantImg , 2 , {autoAlpha: 0});
-    		TweenMax.to(airPlaneImg, 2 , {autoAlpha: 0})
-    		TweenMax.to(giraffeImg , 2 , {autoAlpha: 0});
+	 		TweenMax.to(elephantImg , 2 , {opacity: 0, display: "none"});
+    		TweenMax.to(airPlaneImg, 2 , {opacity: 0, display: "none"})
+    		TweenMax.to(giraffeImg , 2 , {opacity: 0, display: "none"});
 
-    		TweenMax.staggerTo(airBaloonImg, 2 , {autoAlpha: 1 , delay: 1}, .3)
+    		TweenMax.staggerTo(airBaloonImg, 2 , {opacity: 1, display: "block" , delay: 1}, .3)
     	 }
 
     	  if (roundToArbitraryNumbers(this.x) > 127 && roundToArbitraryNumbers(this.x) < 151 ){
-          TweenMax.to(elephantImg , 2 , {autoAlpha: 0});
-          TweenMax.to(airPlaneImg, 2 , {autoAlpha: 0})
-          TweenMax.to(airBaloonImg, 2, {autoAlpha: 0})
-          TweenMax.staggerTo(giraffeImg, 2 , {autoAlpha: 1, delay: 1}, .3)
+          TweenMax.to(elephantImg , 2 , {opacity: 0, display: "none"});
+          TweenMax.to(airPlaneImg, 2 , {opacity: 0, display: "none"})
+          TweenMax.to(airBaloonImg, 2, {opacity: 0, display: "none"})
+          TweenMax.staggerTo(giraffeImg, 2 , {opacity: 1, display: "block", delay: 1}, .3)
 
         }
     } 
@@ -410,10 +410,12 @@ function navSelectors(){
       heightPage.classList.remove('show-page')
       deforestationPage.classList.remove('show-page')
       historyPage.classList.add('show-page');
-      TweenMax.to(navContainer , 2 , { autoAlpha: 0, left: '-100%'})
-      TweenMax.to(globalNav, 2, {autoAlpha: 1, delay: 1.85});
-      TweenMax.to(historyPage , 0 , { autoAlpha: 0})
-      TweenMax.fromTo(historyPage , 2 , { autoAlpha: 1, delay: 4 , left: '-100%' },{left: 0, top: '-780px'})
+      TweenMax.to(navContainer , 2 , { opacity: 0, display: "none", left: '-100%'})
+      TweenMax.to(globalNav, 2, {opacity: 1, display: "flex", delay: 1.85});
+      TweenMax.fromTo(heightPage , 2 , { opacity: 0, display: "none", delay: 4 , left: 0 },{left: '-100%'})
+      TweenMax.fromTo(deforestationPage , 2 , { opacity: 0, display: "none", delay: 4 , left: 0 },{left: '-100%'})
+      TweenMax.to(historyPage , 0 , { opacity: 0, display: "none"})
+      TweenMax.fromTo(historyPage , 2 , { opacity: 1, display: "block", delay: 4 , left: '-100%' },{left: 0, top: '0'})
 
     })
 
@@ -428,11 +430,13 @@ function navSelectors(){
       deforestationPage.classList.add('show-page');
       heightPage.classList.remove('show-page')
       historyPage.classList.remove('show-page')
-      TweenMax.to(navContainer , 2 , { autoAlpha: 0, left: '-100%'})
-      TweenMax.to(globalNav, 2, {autoAlpha: 1, delay: 1.85});
+      TweenMax.to(navContainer , 2 , { opacity: 0, display: "none", left: '-100%'})
+      TweenMax.to(globalNav, 2, {opacity: 1, display: "flex", delay: 1.85});
       deforestationPage.classList.add('show-page');
-      TweenMax.to(deforestationPage , 0 , { autoAlpha: 0})
-      TweenMax.fromTo(deforestationPage , 2 , { autoAlpha: 1, delay: 4 , left: '-100%' },{left: 0})
+      TweenMax.to(deforestationPage , 0 , { opacity: 0, display: "none"})
+      TweenMax.fromTo(heightPage , 2 , { opacity: 0, display: "none", delay: 4 , left: 0 },{left: '-100%'})
+      TweenMax.fromTo(historyPage , 2 , { opacity: 0, display: "none", delay: 4 , left: 0 },{left: '-100%'})
+      TweenMax.fromTo(deforestationPage , 2 , { opacity: 1, display: "block", delay: 4 , left: '-100%' },{left: 0})
     })
 
   })
@@ -445,11 +449,12 @@ function navSelectors(){
       })
       deforestationPage.classList.remove('show-page')
       heightPage.classList.add('show-page');
-      TweenMax.to(navContainer , 2 , { autoAlpha: 0, left: '-100%'})
-      TweenMax.to(globalNav, 2, {autoAlpha: 1, delay: 1.85});
+      TweenMax.to(navContainer , 2 , { opacity: 0, display: "none", left: '-100%'})
+      TweenMax.to(globalNav, 2, {opacity: 1, display: "flex", delay: 1.85});
       heightPage.classList.add('show-page');
-      TweenMax.to(heightPage , 0 , { autoAlpha: 0})
-      TweenMax.fromTo(heightPage , 2 , { autoAlpha: 1, delay: 4 , left: '-100%' },{left: 0})
+      TweenMax.fromTo(deforestationPage , 2 , { opacity: 0, display: "none", delay: 4 , left: 0 },{left: '-100%'})
+      TweenMax.fromTo(historyPage , 2 , { opacity: 0, display: "none", delay: 4 , left: 0 },{left: '-100%'})
+      TweenMax.fromTo(heightPage , 2 , { opacity: 0, display: "none", delay: 4 , left: '-100%' },{opacity: 1, display: "block", left: 0})
     })
 
   })

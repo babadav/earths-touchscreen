@@ -42,8 +42,7 @@ nav{
 	    opacity: 1;
         padding-top: 50px;
 	    padding-bottom: 50px;
-	    visibility: hidden;
-
+		display: none;
 
 		.weather{
 			width: 50px;
@@ -68,6 +67,9 @@ nav{
 	width: 50%;
 	position: absolute;
 	margin: 0 auto;
+	left: 25vw;
+    top: 145px;
+    
 
 
 	.nav-center{
@@ -166,7 +168,7 @@ nav{
 	margin: 0 auto;
 	margin-bottom: 15%;
     position: relative;
-    top: -960px;
+    top: 0;
     display: none;
 
 	.rings-text-container{
@@ -366,12 +368,9 @@ nav{
 }
 
 .height-container{
-	 width: 90%;
-	 margin: 0 auto;
-	visibility: visible;
-	opacity: 0;
-
-
+	width: 90%;
+	margin: 0 auto;
+	display: none;
 	
 
 	.rings-tree-container{
